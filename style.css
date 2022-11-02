@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:wght@400;700&display=swap');
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-family: 'Lora', serif;
+}
+h1, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  font-size: 38px;
+}
+h1,
+h2 {
+  color : #ffffff
+}
+h2 {
+  font-size: 32px;
+  opacity: 0.8;
+}
+h3 {
+  color: rgba(73, 73, 73, 0.8);
+  font-size: 28px;
+  font-weight: 200;
+}
+
+#banner {
+  padding: 120px 0;
+  background-image: url("https://source.unsplash.com/random/1000x500");
+  background-size: cover;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.link-green-bkg {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 0;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 25px;
+  color: #000000;
+  opacity: 0.6;
+  background-color: rgba(233, 253, 240, 1);
+}
+
+.btn-green-bkg:hover {
+  background-color: rgba(110, 247, 178, 0.8);
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
